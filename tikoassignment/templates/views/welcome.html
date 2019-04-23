@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Welcome</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Welcome to the Django webpage</h1>
+    <p>Click <a href="{% url 'graph' %}">here</a> to know the length of jokes </p>
+{% endblock %}
